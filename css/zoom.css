@@ -1,0 +1,47 @@
+.zooms {
+  width: 400px;
+  height: 400px;
+  margin: 50px;
+  position: relative;
+}
+
+.zooms .imglist {
+  position: absolute;
+  bottom: -40px;
+  width: 100%;
+  height: 40px;
+}
+
+.zooms .imglist img {
+  float: left;
+  width: 20%;
+}
+
+.zooms .zoomimg img {
+  width: 100%;
+  height: 100%;
+}
+
+.zooms .imgzoom-pop {
+  position: absolute;
+  right: -400px;
+  top: 0;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  display: none;
+}
+
+.zooms .imgzoom-pop img {
+  position: absolute;
+  width: 800px;
+}
+
+.zooms .imgzoom-sort {
+  position: absolute;
+  top: 0;
+  width: 200px;
+  height: 200px;
+  background-color: rgba(238, 238, 51, .3);
+  display: none;
+}

@@ -1,0 +1,84 @@
+.wrapper {
+  width: 970px;
+  margin: 0 auto;
+}
+
+/* header  */
+.header {
+  position: relative;
+  height: 100px;
+  background-color: #fff;
+}
+
+.header a {
+  height: 100%;
+}
+
+.header a img {
+  float: left;
+  height: 100%;
+}
+
+.header .title {
+  float: left;
+  font-size: 18px;
+  color: #666;
+  line-height: 100px;
+  margin-left: 10px;
+}
+
+.header .gologin {
+  float: right;
+  margin-top: 63px;
+  font-size: 12px;
+}
+
+.header .gologin:hover {
+  color: #f60;
+}
+
+/* main */
+.main {
+  width: 990px;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  border-top: 3px solid #f90;
+  background-color: #fff;
+  padding: 55px 0;
+}
+
+.main form {
+  width: 380px;
+  margin: 0 auto;
+}
+
+.main .input-box {
+  width: 378px;
+  height: 38px;
+  line-height: 38px;
+  border: 1px solid #ddd;
+  margin-bottom: 25px;
+}
+
+.main .input-box label {
+  margin-left: 18px;
+}
+
+.main .input-box input {
+  width: 291px;
+}
+
+.main .goreg {
+  display: block;
+  width: 100%;
+  line-height: 40px;
+  background-color: #f60;
+  font-size: 20px;
+  color: #fff;
+  margin: 20px 0 5px;
+  text-align: center;
+}
+
+.main .goreg:hover {
+  background-color: #f50;
+}

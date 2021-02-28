@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>列表</title>
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/footer.css">
+  <link rel="stylesheet" href="../css/list.css">
+  <script src="../js/jquery.js"></script>
+  <script src="../js/list.js"></script>
+  <script src="../js/pagination.js"></script>
+</head>
+
+<body>
+  <!-- 顶部导航栏 开始 -->
+  <div class="top-nav-wrap">
+    <div class="top-nav wrapper">
+      <ul class="top-nav-left">
+        <li><a href="./index.html">返回首页</a></li>
+        <li><a href="#">网站导航</a></li>
+        <li><a href="#">商家入驻</a></li>
+        <li><a href="#">客户服务</a></li>
+      </ul>
+      <ul class="top-nav-right">
+        <li><a href="./login.html">请登录</a></li>
+        <li><a href="./reg.html">注册有礼</a></li>
+        <li><a href="./shopping.html">我的订单</a></li>
+        <li><a href="#">我的易购</a></li>
+        <li><a href="#">苏宁会员</a></li>
+        <li><a href="./shopping.html">购物车</a></li>
+        <li><a href="#">易付宝</a></li>
+        <li><a href="#">企业采购</a></li>
+        <li><a href="#">手机苏宁</a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- 顶部导航栏 结束 -->
+
+  <!-- header搜索栏 S -->
+  <div class="index-header">
+    <div class="index-header-con wrapper">
+      <div class="header-logo">
+        <a href="./index.html">
+          <img src="../images/logo.png" alt="">
+        </a>
+      </div>
+      <div class="header-seach">
+        <div class="header-seach-con">
+          <form action="" name="index-seach">
+            <input type="text" class="seachinp" placeholder="请输入关键字" value="手机">
+            <input type="submit" class="index-seach-sub" value="搜索"></input>
+            <!-- 搜索建议 -->
+            <div class="header-seach-tips">
+              <a href="#">炒锅</a>
+              <a href="#">沙发</a>
+              <a href="./list.html">手机</a>
+              <a href="#">奶粉</a>
+              <a href="#">冰箱</a>
+              <a href="#">电视</a>
+              <a href="#">ipad</a>
+              <a href="#">热水器</a>
+              <a href="#">电饭煲</a>
+              <a href="#">电动车</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- header搜索栏 E -->
+
+  <!-- bannernav S -->
+  <div class="banner-nav-out">
+    <div class="banner-nav wrapper clearfix">
+      <!-- 下拉列表 -->
+      <div class="banner-nav-list">
+        <a href="#" class="nav-list-link">
+          <i>00</i>
+          <span>分类</span>
+        </a>
+
+        <div class="list-box">
+          <ul class=" list-ul">
+            <li>
+              <img src="../images/list-phone.png" alt="">
+              <a href="list.html">手机</a>
+              <em>/</em>
+              <a href="#">运营商</a>
+              <em>/</em>
+              <a href="#">智能数码</a>
+            </li>
+            <li>
+              <img src="../images/list-tv.png" alt="">
+              <a href="list.html">手机</a>
+              <em>/</em>
+              <a href="#">家用电器</a>
+              <em>/</em>
+              <a href="#">房产</a>
+            </li>
+            <li>
+              <img src="../images/list-chuju.png" alt="">
+              <a href="list.html">手机</a>
+              <em>/</em>
+              <a href="#">厨具</a>
+              <em>/</em>
+              <a href="#">生活电器</a>
+            </li>
+            <li>
+              <img src="../images/list-computer.png" alt="">
+              <a href="list.html">手机</a>
+              <em>/</em>
+              <a href="#">运营商</a>
+              <em>/</em>
+              <a href="#">智能数码</a>
+            </li>
+            <li>
+              <img src="../images/list-sofa.png" alt="">
+              <a href="list.html">手机</a>
+              <em>/</em>
+              <a href="#">电脑办公</a>
+              <em>/</em>
+              <a href="#">电竞</a>
+            </li>
+            <li>
+              <img src="../images/list-tang.png" alt="">
+              <a href="list.html">手机</a>
+              <em>/</em>
+              <a href="#">运营商</a>
+              <em>/</em>
+              <a href="#">智能数码</a>
+            </li>
+            <li>
+              <img src="../images/list-kouhong.png" alt="">
+              <a href="list.html">手机</a>
+              <em>/</em>
+              <a href="#">家纺</a>
+              <em>/</em>
+              <a href="#">灯具</a>
+            </li>
+            <li>
+              <img src="../images/list-phone.png" alt="">
+              <a href="list.html">手机</a>
+              <em>/</em>
+              <a href="#">酒水</a>
+              <em>/</em>
+              <a href="#">生鲜</a>
+            </li>
+            <li>
+              <img src="../images/list-tv.png" alt="">
+              <a href="list.html">手机</a>
+              <em>/</em>
+              <a href="#">母婴</a>
+              <em>/</em>
+              <a href="#">玩具</a>
+            </li>
+            <li>
+              <img src="../images/list-chuju.png" alt="">
+              <a href="list.html">手机</a>
+              <em>/</em>
+              <a href="#">运动</a>
+              <em>/</em>
+              <a href="#">智能数码</a>
+            </li>
+            <li>
+              <img src="../images/list-computer.png" alt="">
+              <a href="list.html">手机</a>
+              <em>/</em>
+              <a href="#">女装</a>
+              <em>/</em>
+              <a href="#">男装</a>
+            </li>
+            <li>
+              <img src="../images/list-sofa.png" alt="">
+              <a href="list.html">手机</a>
+              <em>/</em>
+              <a href="#">箱包</a>
+              <em>/</em>
+              <a href="#">汽车</a>
+            </li>
+            <li>
+              <img src="../images/list-tang.png" alt="">
+              <a href="list.html">手机</a>
+              <em>/</em>
+              <a href="#">图书</a>
+              <em>/</em>
+              <a href="#">艺术</a>
+            </li>
+            <li>
+              <img src="../images/list-kouhong.png" alt="">
+              <a href="list.html">手机</a>
+              <em>/</em>
+              <a href="#">医药</a>
+              <em>/</em>
+              <a href="#">健康</a>
+            </li>
+            <li>
+              <img src="../images/list-kouhong.png" alt="">
+              <a href="list.html">手机</a>
+              <em>/</em>
+              <a href="#">理财</a>
+              <em>/</em>
+              <a href="#">分期</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- 中间推荐栏位 -->
+      <div class="banner-nav-center">
+        <ul class="banner-nav-center-list">
+          <li class="title-pic">
+            <a href="#">
+              <img src="../images/miaosha.png" alt="">
+            </a>
+            <span></span>
+          </li>
+          <li class="title-pic">
+            <a href="#">
+              <img src="../images/guoji.png" alt="">
+            </a>
+            <span></span>
+          </li>
+          <li class="title-pic">
+            <a href="#">
+              <img src="../images/redboy.png" alt="">
+            </a>
+            <span></span>
+          </li>
+          <li>
+            <a href="#">苏宁超市 <i class="hot-tip"></i></a>
+            <span></span>
+          </li>
+          <li>
+            <a href="#">电器城</a>
+            <span></span>
+          </li>
+          <li>
+            <a href="#">生活家电</a>
+            <span></span>
+          </li>
+          <li>
+            <a href="#">手机数码</a>
+            <span></span>
+          </li>
+          <li>
+            <a href="#">金融</a>
+            <span></span>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+  <!-- bannernav E -->
+  <!-- 筛选栏 S -->
+  <div class="crumbs wrapper clearfix">
+    <div class="search-path">
+      <a class="allResult" href="#">全部结果</a>
+      <i class="icon-right">></i>
+      <h1 class="goods-name">手机</h1>
+    </div>
+    <a class="push-btn" href="javascript:void(0);">收起筛选
+      <i class="iconfont">0</i>
+    </a>
+  </div>
+  <div class="advanced-filter wrapper">
+    <div class="filter-content">
+      <div class="filter-section clearfix">
+        <div class="s-left">
+          <label>品牌</label>
+        </div>
+        <div class="s-right">
+          <ul>
+            <li class="s-brand">
+              <a href="#">
+                <img src="../images/phone-apple.jpg" alt="">
+                <div class="b-mark">apple</div>
+              </a>
+
+            </li>
+            <li class="s-brand">
+              <a href="#">
+                <img src="../images/phone-huawei.jpg" alt="">
+                <div class="b-mark">华为(HUAWEI)</div>
+              </a>
+
+            </li>
+            <li class="s-brand">
+              <a href="#">
+                <img src="../images/phone-mi.jpg" alt="">
+                <div class="b-mark">小米(mi)</div>
+              </a>
+
+            </li>
+            <li class="s-brand">
+              <a href="#">
+                <img src="../images/phone-honor.jpg" alt="">
+                <div class="b-mark">荣耀(honor)</div>
+              </a>
+
+            </li>
+            <li class="s-brand">
+              <a href="#">
+                <img src="../images/phone-oppo.jpg" alt="">
+                <div class="b-mark">OPPO</div>
+              </a>
+
+            </li>
+            <li class="s-brand">
+              <a href="#">
+                <img src="../images/phone-vivo.jpg" alt="">
+                <div class="b-mark">vivo</div>
+              </a>
+
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="filter-section clearfix">
+        <div class="s-left">
+          <label>价格</label>
+        </div>
+        <div class="s-right">
+          <a class="f-item" href="javascript:void(0);">0-1000</a>
+          <a class="f-item" href="javascript:void(0);">1000-2000</a>
+          <a class="f-item" href="javascript:void(0);">2000-4500</a>
+          <a class="f-item" href="javascript:void(0);">4500-8000</a>
+          <a class="f-item" href="javascript:void(0);">8000以上</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 筛选栏 E -->
+
+  <!-- 商品区 S -->
+  <div class="goodList">
+    <div class="goods-list wrapper"></div>
+    <div class="pagination"></div>
+  </div>
+  <!-- 商品区 E -->
+
+  <!-- footer -->
+  <div class="footer-wrap">
+    <div class="footer wrapper">
+      <p>
+        <a href="#">苏宁互联</a><span>|</span>
+        <a href="#">苏宁金融</a><span>|</span>
+        <a href="#">苏宁支付</a><span>|</span>
+        <a href="#">PP视频</a><span>|</span>
+        <a href="#">红孩子</a><span>|</span>
+        <a href="#">苏宁物流</a><span>|</span>
+        <a href="#">手机苏宁</a><span>|</span>
+        <a href="#">零售云</a><span>|</span>
+        <a href="#">苏宁云</a><span>|</span>
+        <a href="#">知识产权举报</a><span>|</span>
+        <a href="#">投资者关系</a>
+      </p>
+      <p>
+        <a href="#">联系我们</a><span>|</span>
+        <a href="#">诚聘英才</a><span>|</span>
+        <a href="#">供应商入驻</a><span>|</span>
+        <a href="#">广告平台</a><span>|</span>
+        <a href="#">苏宁联盟</a><span>|</span>
+        <a href="#">苏宁招标</a><span>|</span>
+        <a href="#">友情链接</a><span>|</span>
+        <a href="#">隐私声明</a><span>|</span>
+        <a href="#">用户体验提升计划</a><span>|</span>
+        <a href="#">股东会员认证</a>
+      </p>
+      <p>
+        <a href="#">Copyright? 2002-2020，苏宁易购集团股份有限公司版权所有</a><span>|</span>
+        <a href="#">诚聘苏公网安备 32010202010078号英才</a><span>|</span>
+        <a href="#">苏ICP备10207551号-4合字B2-20180025</a><span>|</span>
+        <a href="#">合字A1.B1.B2-20180017</a><span>|</span>
+        <a href="#">出版物经营许可证新出发苏批字第A-243号</a><span>|</span>
+        <a
+          href="#">互联网药品信息服务资格证书（苏）-非经营性-2016-0005网络文化经营许可证：苏网文〔2018〕10580-203号本网站直接或间接向消费者推销商品或者服务的商业宣传均属于“广告”（包装及参数、售后保障等商品信息除外）</a>
+      </p>
+    </div>
+  </div>
+</body>
+
+</html>

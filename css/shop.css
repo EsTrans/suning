@@ -1,0 +1,168 @@
+/* #a1 {
+  width: 730px;
+  margin: 0px auto;
+  background-image: url(image/list_bg.gif);
+  background-repeat: no-repeat;
+} */
+
+.top {
+  padding-top: 30px;
+}
+
+h4 {
+  float: left;
+  line-height: 46px;
+  text-align: center;
+}
+
+h4:first-child {
+  width: 52px;
+}
+
+h4:nth-child(2) {
+  width: 435px;
+}
+
+h4:nth-child(3) {
+  width: 123px;
+}
+
+h4:nth-child(4) {
+  width: 137px;
+}
+
+h4:nth-child(6) {
+  width: 96px;
+}
+
+.clear {
+  clear: both;
+}
+
+.top_1 {
+  width: 80px;
+  text-align: center;
+}
+
+.top_2 {
+  width: 150px;
+  text-align: center;
+}
+
+.content .top_2 {
+  text-align: left;
+}
+
+.content .top_2 img {
+  float: left;
+}
+
+.content .top_2 span {
+  float: left;
+  display: block;
+  margin-left: 15px;
+  width: 300px;
+  font-size: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cc {
+  width: 20px;
+  text-align: center
+}
+
+.conter h4 {
+  line-height: 120px;
+}
+
+.conter {
+  line-height: 200px;
+  border-bottom: 1px dashed #999;
+
+}
+
+.aa {
+  width: 20px;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.foot {
+  margin-top: 50px;
+  /* margin-left: 30px; */
+}
+
+/* 新添加 */
+.tips {
+  font-size: 24px;
+  font-weight: 700;
+  border: 1px solid #eaeaea;
+  padding: 20px 0;
+  background-color: #fffbf2;
+}
+
+.xiaoji {
+  width: 100%;
+  padding: 10px 0;
+  border: 1px solid #eaeaea;
+}
+
+.xiaoji p {
+  width: 100px;
+  float: right;
+  margin-right: 100px;
+  color: red;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.foot h4 {
+  line-height: 20px;
+}
+
+.foot .f-right {
+  float: right;
+  font-size: 18px;
+  color: red;
+  font-weight: 700;
+}
+
+.foot img {
+  float: right;
+  margin-left: 20px;
+}
+
+.content {
+  border: 1px solid #eaeaea;
+  background-color: #fffbf2;
+  padding: 10px 0;
+}
+
+.content h4 {
+  line-height: 170px;
+}
+
+.content .aa,
+.content .cc {
+  width: 30px;
+  height: 30px;
+  box-sizing: border-box;
+}
+
+.content input[value="删除"],
+.foot input[value="批量删除"] {
+  border: none;
+  background-color: transparent;
+}
+
+.foot input[value="批量删除"] {
+  margin-left: 10px;
+}
+
+/* .content .cc {
+  disabled: "true"
+} */

@@ -1,0 +1,33 @@
+/* footer */
+.footer-wrap {
+  width: 100%;
+  background-color: #fff;
+}
+
+.footer {
+  padding-top: 20px;
+}
+
+.footer p {
+  text-align: center;
+  font-size: 12px;
+
+}
+
+.footer p span {
+  padding: 0 5px;
+}
+
+.footer p a {
+  color: #999;
+  line-height: 24px;
+}
+
+.footer p:nth-child(-n+2) a {
+  color: #666;
+}
+
+.footer p:nth-child(-n+2) a:hover {
+  color: #f60;
+  text-decoration: underline;
+}

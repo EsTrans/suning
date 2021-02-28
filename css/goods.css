@@ -1,0 +1,214 @@
+/* 版心 */
+.wrapper {
+  width: 1190px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #fff;
+}
+
+/* 顶部导航栏 S */
+.top-nav-wrap {
+  width: 100%;
+  height: 35px;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #eee;
+}
+
+.top-nav ul li {
+  height: 35px;
+  line-height: 35px;
+  font-size: 12px;
+  color: #666;
+  padding: 0 10px;
+}
+
+.top-nav .top-nav-left {
+  float: left;
+}
+
+.top-nav .top-nav-left li {
+  float: left;
+}
+
+.top-nav .top-nav-right {
+  float: right;
+}
+
+.top-nav .top-nav-right li {
+  float: left;
+}
+
+.top-nav .top-nav-right li :hover {
+  color: #ff6600;
+}
+
+/* 顶部导航栏 E */
+
+/* 商品介绍 S */
+
+/* 放大镜 S */
+.goods-intor {
+  padding: 15px 10px 80px;
+}
+
+.zooms {
+  float: left;
+  position: relative;
+  width: 400px;
+  height: 400px;
+  border: 1px solid #eee;
+}
+
+.zooms .imglist {
+  position: absolute;
+  bottom: -40px;
+  width: 100%;
+  height: 40px;
+}
+
+.zooms .imglist img {
+  float: left;
+  width: 20%;
+}
+
+.zooms .zoomimg img {
+  width: 100%;
+  height: 100%;
+}
+
+.zooms .imgzoom-pop {
+  position: absolute;
+  right: -400px;
+  top: 0;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  display: none;
+}
+
+.zooms .imgzoom-pop img {
+  position: absolute;
+  width: 800px;
+}
+
+.zooms .imgzoom-sort {
+  position: absolute;
+  top: 0;
+  width: 200px;
+  height: 200px;
+  background-color: rgba(238, 238, 51, .3);
+  display: none;
+}
+
+/* 放大镜 E */
+
+/* 文字介绍 */
+.goods-intor .intor-cont {
+  margin-left: 20px;
+  padding-top: 30px;
+  float: left;
+}
+
+.goods-intor .intor-cont .title {
+  font-size: 20px;
+  width: 700px;
+  height: 60px;
+  line-height: 30px;
+  font-weight: bold;
+  overflow: hidden;
+}
+
+.goods-intor .intor-cont .price-box {
+  margin: 40px 0;
+}
+
+.goods-intor .intor-cont .price-box label {
+  font-size: 14px;
+  color: #333;
+  margin-right: 20px;
+}
+
+.goods-intor .intor-cont .price-box .price {
+  height: 22px;
+  line-height: 20px;
+  font-size: 30px;
+  color: #e00;
+  font-weight: bold;
+}
+
+.goods-intor .intor-cont .price-box .price>i {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+
+
+.goods-intor .intor-cont .go,
+.goods-intor .intor-cont .join {
+  float: left;
+  display: block;
+  width: 150px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+.goods-intor .intor-cont .go {
+  background-color: #663200;
+  margin-right: 20px;
+
+}
+
+.goods-intor .intor-cont .go:hover {
+  background-color: #4b2500;
+}
+
+.goods-intor .intor-cont .join:hover {
+  background-color: #f50;
+}
+
+.goods-intor .intor-cont .join {
+  background-color: #f60;
+}
+
+/* 商品介绍 E */
+
+/* xiang S */
+.xiang {
+  margin-top: 30px;
+}
+
+.xiang .tab-nav {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  background-color: #f7f7f7;
+  border: 1px solid #eee;
+  font-size: 14px;
+}
+
+.xiang .tab-nav .nav-item {
+  float: left;
+  display: block;
+  padding: 0 20px;
+}
+
+.xiang .tab-nav .nav-item.on {
+  border-top: 2px solid #f60;
+  background-color: #fff;
+}
+
+.xiang .xiang-cont {
+  display: none;
+}
+
+.xiang .xiang-cont.show {
+  display: block;
+}
+
+/* xiang E */
